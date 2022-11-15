@@ -21,7 +21,7 @@ const emailOlvidePasword = async (datos) => {
         text: "Restablecer Contraseña",
         html: ` <p>Hola ${nombre}, has solicitado restablecer tu contraseña.</p>
             <P>Sigue el siguiente enlace para para generar una nueva contraseña: 
-            <a href="$https://friendly-cascaron-ee290e.netlify.app/olvide-password/${token}">Restablecer contraseña</a>
+            <a href="https://friendly-cascaron-ee290e.netlify.app/olvide-password/${token}">Restablecer contraseña</a>
             </P>
 
             <p>Si tu no solicitaste restablecer contraseña puedes ignorar este mensaje</p>
