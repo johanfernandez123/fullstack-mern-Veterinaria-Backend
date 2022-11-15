@@ -21,7 +21,7 @@ const emailRegistro = async (datos) => {
         text: "Comprueba tu cuenta en APV",
         html: ` <p>Hola ${nombre}, comprueba tu cuenta en APV.</p>
             <P>tu cuenta ya esta lista solo debes comprobarla en el siguiente enlace: 
-            <a href="${process.env.FRONTEND_URL}/confirmar/${token}">Comprobar Cuenta</a>
+            <a href="https://friendly-cascaron-ee290e.netlify.app/confirmar/${token}">Comprobar Cuenta</a>
             </P>
 
             <p>Si tu no creaste tu cuenta, puedes ignorar este mensaje</p>
